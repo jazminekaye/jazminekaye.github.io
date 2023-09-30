@@ -1,0 +1,186 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+navbar{
+    background-color: white;
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: black;
+    background-color: rgb(233, 20, 109);
+}
+.main{
+    background: url(web.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.main .bt1{
+    height: 55px;
+    width:138px;
+    background-color: rgb(233, 20, 109);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: white;
+    color: rgb(233, 20, 109);
+    transition: 0.5s;
+    border: 1px solid rgb(233, 20, 109);
+}
+.main .bt2{
+    height: 55px;
+    width:138px;
+    background-color: white;
+    color: rgb(233, 20, 109);
+    outline: none;
+    border: 1px solid rgb(233, 20, 109);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+    color: white;
+}
+.about{
+    background: url(page2.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.about h1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.text{
+    text-align: justify;
+}
+.card{
+    border:none;
+    outline: none;
+    box-shadow: 0px 10px 52px -1px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 0px 10px 52px -1px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px 10px 52px -1px rgba(0,0,0,0.76);
+}
+.card p{
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.skill{
+    background: url(main.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+}
+.skill h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.card:hover .circle{
+    background-color: rgb(233, 20, 109);
+    color: white;
+    transition: 0.5s;    
+}
+.website{
+    background: url(main.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.website h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.website .card:hover{
+    height: 520px;
+    width:400px;
+    background-color: rgb(233, 20, 109);
+    color: white;
+    transition: 0.5s;   
+}
+.contact{
+    background: url(main.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 130vh;
+}
+.contact h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.contact .circle:hover{
+    background-color:rgb(233, 20, 109);
+    color:white;
+    transition: 0.4s;
+}
+.contact .bt3{
+    background-color: rgb(233, 20, 109);
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
+.bt3:hover{
+    background: white;
+    color: rgb(233, 20, 109);
+    border: 1px solid rgb(233, 20, 109);
+    transition: 0.4s;
+}
+footer{
+    background-color: rgb(233, 20, 109);
+    color: white;
+}
+.back-to-top {
+    background-color: rgb(233, 20, 109);
+    color: white;
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+    border: none;
+    display: inline;
+}
+.back-to-top:hover{
+    background: white;
+    color: rgb(233, 20, 109);
+    
+}
+
+
